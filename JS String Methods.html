@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript String Methods</h2>
+
+<p>The slice(),replace(),length and toUpperCase() methods</p>
+
+<p id="demo1"></p>
+<p id="demo2"></p>
+<p id="demo3"></p>
+<p id="demo4"></p>
+
+<script>
+let str = "Apple, Banana, Kiwi";
+let text1 = "Apple";       
+{
+document.getElementById("demo1").innerHTML=str.slice(7);
+document.getElementById("demo2").innerHTML=str.replace("Apple","Orange");
+}
+</script>
+<button onclick="this.innerHTML=text1.length;">Length</button>
+<button onclick="this.innerHTML=text1.toUpperCase();">UpperCase</button>
+</body>
+</html>
+
