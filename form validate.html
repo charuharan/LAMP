@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>
+function validateForm() {
+  let x = document.forms["reg"]["mail"].value;
+  if (x == "") {
+    alert("email must be filled out");
+  }
+}
+</script>
+    <style>
+    #color{
+    color:red;
+    }
+    #div1{
+        height:80%;
+        width:100%;
+        background-color: lightgrey;
+        border: 15px solid green;
+        padding: 50px;
+        margin: 20px;
+    }
+    h1{
+    text-align:center;
+    }
+    </style>
+    </head>
+    <body>
+    <div id="div1">
+    <h1>Event Registration Form</h1><br>
+    <form name="reg" onsubmit="return validateForm()">
+    <label for="fname" >FirstName:<sup id="color">*<sup></label>
+    <input type="text" onblur="style.color='red'"id="fname" name="fname" placeholder="John" required>
+    <label for="lname">LastName:<sup id="color">*<sup></label>
+    <input type="text" id="lname" name="lname" placeholder="Doe" required><br>
+    <br>
+    <label for="phno">Mobile:<sup id="color">*<sup></label>
+    <input type="number" id="phno" name="phno" maxlength="15" placeholder="91-123456789" required><br>
+    <label for="mail">E-mail ID:<sup id="color">*<sup></label>
+    <input type="email" id="mail" name="mail" placeholder="sample@aspiresys.com">
+    <label for="pw">Password:<sup id="color">*<sup></label>
+    <input type="password" id="pw" name="pw" required><br>
+    <label for="team">Team:<sup id="color">*<sup></label>
+    <select id="team" name="team" required>
+    <option value="LAMP">LAMP</option>
+	<option value="IAS">IAS</option>
+	<option value="JAVA">JAVA</option>
+    <option value="Others">Others</option><br>
+	</select>
+    <label for="oth">Others:</label>
+    <input type="text" id="oth" name="oth"><br>
+    <input type="submit" id="sub" value="submit" target=_blank>
+    <input type="reset" value="reset">
+    </form>
+    </div>
+    </body>
+    </html> 
+    
