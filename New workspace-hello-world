@@ -1,0 +1,37 @@
+C:\Users\charumathi.hariharan>ng n
+? What name would you like to use for the new workspace and initial project? hello-world
+? Would you like to add Angular routing? Yes
+? Which stylesheet format would you like to use? CSS
+CREATE hello-world/angular.json (3069 bytes)
+CREATE hello-world/package.json (1073 bytes)
+CREATE hello-world/README.md (1056 bytes)
+CREATE hello-world/tsconfig.json (783 bytes)
+CREATE hello-world/.editorconfig (274 bytes)
+CREATE hello-world/.gitignore (604 bytes)
+CREATE hello-world/.browserslistrc (703 bytes)
+CREATE hello-world/karma.conf.js (1428 bytes)
+CREATE hello-world/tsconfig.app.json (287 bytes)
+CREATE hello-world/tsconfig.spec.json (333 bytes)
+CREATE hello-world/src/favicon.ico (948 bytes)
+CREATE hello-world/src/index.html (296 bytes)
+CREATE hello-world/src/main.ts (372 bytes)
+CREATE hello-world/src/polyfills.ts (2820 bytes)
+CREATE hello-world/src/styles.css (80 bytes)
+CREATE hello-world/src/test.ts (743 bytes)
+CREATE hello-world/src/assets/.gitkeep (0 bytes)
+CREATE hello-world/src/environments/environment.prod.ts (51 bytes)
+CREATE hello-world/src/environments/environment.ts (658 bytes)
+CREATE hello-world/src/app/app-routing.module.ts (245 bytes)
+CREATE hello-world/src/app/app.module.ts (393 bytes)
+CREATE hello-world/src/app/app.component.html (24617 bytes)
+CREATE hello-world/src/app/app.component.spec.ts (1088 bytes)
+CREATE hello-world/src/app/app.component.ts (215 bytes)
+CREATE hello-world/src/app/app.component.css (0 bytes)
+√ Packages installed successfully.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\charumathi.hariharan>cd hello-world
+
+C:\Users\charumathi.hariharan\hello-world>cd my-app
+The system cannot find the path specified.
